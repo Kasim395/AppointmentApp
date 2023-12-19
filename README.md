@@ -1,3 +1,4 @@
 
-Install packeges by Npm Install
+Install packeges by npm Install
+
 Run app by npx expo
