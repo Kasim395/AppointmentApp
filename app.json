@@ -1,0 +1,50 @@
+{
+  "expo": {
+    "name": "Appointment App",
+    "slug": "homeapp",
+    "version": "1.8.0",
+    "orientation": "portrait",
+    "icon": "./assets/logoapp.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splashing.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "plugins": [
+      [
+        "expo-updates",
+        {
+          "username": "qasim395m"
+        }
+      ]
+    ],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/logoapp.png",
+        "backgroundColor": "#000000"
+      },
+      "package": "com.qasim395m.homeapp"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e719f81d-ddc2-428a-9bd2-cab1a56b35da"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/e719f81d-ddc2-428a-9bd2-cab1a56b35da"
+    }
+  }
+}
